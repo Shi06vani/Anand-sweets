@@ -1,6 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // Hide the Next.js "N" dev badge in the corner (dev mode only)
+  devIndicators: false,
   cacheComponents: true,
   images: {
     // Free-licence stock photos from Unsplash. Replace with the shop's own photos in /public/images when ready.
