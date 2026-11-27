@@ -9,7 +9,7 @@ import { CartButton } from "@/components/cart/CartButton";
 import { Button } from "@/components/ui/Button";
 import { Container } from "@/components/ui/Container";
 import { Logo } from "@/components/ui/Logo";
-import { navLinks, site, telHref } from "@/data/site";
+import { navLinks, site, telHref, whatsappHref } from "@/data/site";
 import { cn } from "@/lib/utils";
 
 export function Navbar() {
@@ -83,7 +83,7 @@ export function Navbar() {
               <Phone className="h-4 w-4" />
               Call
             </Button>
-            <Button href="/menu" variant="primary" size="sm" shine>
+            <Button href={whatsappHref()} variant="primary" size="sm" shine>
               <ShoppingBag className="h-4 w-4" />
               Order Now
             </Button>

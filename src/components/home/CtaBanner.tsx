@@ -22,7 +22,7 @@ export function CtaBanner() {
                 Order your favourites now — fresh from our kitchen to your table.
               </p>
               <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
-                <Button href="/#order" size="lg" shine>
+                <Button href={whatsappHref()} size="lg" shine>
                   <ShoppingBag className="h-5 w-5" /> Order Now
                 </Button>
                 <Button href={whatsappHref()} size="lg" variant="light">

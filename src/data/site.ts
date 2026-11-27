@@ -22,9 +22,8 @@ export const site = {
     pincode: "560034",
   },
 
-  // TODO: replace with the real store numbers
-  phone: "+91 80 0000 0000",
-  whatsapp: "918000000000", // country code + number, digits only
+  phone: "+91 72910 85606",
+  whatsapp: "917291085606", // country code + number, digits only
   email: "hello@example.com", // TODO
 
   rating: { value: 4.3, count: "8,000+" }, // from the Google Maps listing — update occasionally

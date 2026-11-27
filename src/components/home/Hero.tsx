@@ -7,7 +7,7 @@ import { Stars } from "@/components/ui/Badges";
 import { Button } from "@/components/ui/Button";
 import { Container } from "@/components/ui/Container";
 import { OpenStatus } from "@/components/ui/OpenStatus";
-import { site } from "@/data/site";
+import { site, whatsappHref } from "@/data/site";
 import { HeroVisual } from "./HeroVisual";
 
 const ease = [0.22, 1, 0.36, 1] as const;
@@ -99,7 +99,7 @@ export function Hero() {
             transition={{ duration: 0.7, delay: 0.7, ease }}
             className="mt-9 flex flex-col items-center gap-3 sm:flex-row sm:justify-center lg:justify-start"
           >
-            <Button href="#order" size="lg" shine className="w-full sm:w-auto">
+            <Button href={whatsappHref()} size="lg" shine className="w-full sm:w-auto">
               <ShoppingBag className="h-5 w-5" />
               Order Now
             </Button>
